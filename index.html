@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>FADI ANIS — Portfolio</title>
   <meta name="description" content="Portfolio of Fadi Anis — Web Development & AI" />
-  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="data:;base64,iVBORw0KGgo=">
@@ -13,6 +12,19 @@
 <body>
   <!-- Particles background -->
   <div id="particles-js" aria-hidden="true"></div>
+
+  <!-- Floating programming icons (will be animated) -->
+  <div id="floating-icons" aria-hidden="true">
+    <!-- We'll generate multiple icons in HTML to be styled; text abbreviations used for clarity -->
+    <div class="ficon small">Py</div>
+    <div class="ficon small">JS</div>
+    <div class="ficon small">HTML</div>
+    <div class="ficon small">CSS</div>
+    <div class="ficon medium">GH</div>
+    <div class="ficon medium">LIN</div>
+    <div class="ficon large">⚙</div>
+    <div class="ficon medium">DB</div>
+  </div>
 
   <header class="topbar">
     <div class="brand">
@@ -37,7 +49,7 @@
         <div class="hero-content">
           <div class="kicker">Hello, I'm</div>
           <h1 class="headline">Fadi <span class="accent">Anis</span></h1>
-          <p class="lead">Second‑year Computer Science student (MIASHS) from Constantine. I build interactive web apps, Python tools & creative technical visuals. Co‑founder & IT Manager at Kaizen Club.</p>
+          <p class="lead">Second-year Computer Science student (MIASHS) from Constantine. I build interactive web apps, Python tools & creative technical visuals. Co-founder & IT Manager at Kaizen Club.</p>
           <div class="cta">
             <a href="#projects" class="btn primary">View Projects</a>
             <a href="#contact" class="btn outline">Get In Touch</a>
@@ -94,20 +106,17 @@
           <h3>Profile Summary</h3>
           <p>I am passionate about creating digital tools, web interfaces, Python applications, and visual content. Through Kaizen Club, I participated in major tech events such as CodeAvour, StartUp Competition, WEBXPO, and Constantic, which strengthened my teamwork and problem-solving abilities.</p>
 
-
-<h3>Education</h3>
-<ul>
-  <li><strong>2025–2026 — 2nd Year MIASHS</strong><br><em>Abdelhamid Mehri University – Constantine 2</em></li>
-  <li><strong>2024–2025 — 1st Year MIASHS</strong><br><em>Abdelhamid Mehri University – Constantine 2</em></li>
-  <li><strong>2023–2024 — First-year Architecture Studies</strong><br><em>Faculty of Architecture & Urbanism — Constantine 3 University</em></li>
-  <li><strong>2022–2023 — First-year Science & Technology Studies</strong><br><em>University of Constantine 1 — Faculty of Science & Technology</em></li>
-  <li><strong>2024 — Baccalaureate in Experimental Sciences — Near Good</strong></li>
-  <li><strong>2023 — Baccalaureate in Experimental Sciences — Good</strong></li>
-  <li><strong>2022 — Baccalaureate in Experimental Sciences — Acceptable</strong></li>
-  <li><strong>English Level — B2</strong></li>
-</ul>
-
-
+          <h3>Education</h3>
+          <ul>
+            <li><strong>2025–2026 — 2nd Year MIASHS</strong><br><em>Abdelhamid Mehri University – Constantine 2</em></li>
+            <li><strong>2024–2025 — 1st Year MIASHS</strong><br><em>Abdelhamid Mehri University – Constantine 2</em></li>
+            <li><strong>2023–2024 — First-year Architecture Studies</strong><br><em>Faculty of Architecture & Urbanism — Constantine 3 University</em></li>
+            <li><strong>2022–2023 — First-year Science & Technology Studies</strong><br><em>University of Constantine 1 — Faculty of Science & Technology</em></li>
+            <li><strong>2024 — Baccalaureate in Experimental Sciences — Near Good</strong></li>
+            <li><strong>2023 — Baccalaureate in Experimental Sciences — Good</strong></li>
+            <li><strong>2022 — Baccalaureate in Experimental Sciences — Acceptable</strong></li>
+            <li><strong>English Level — B2</strong></li>
+          </ul>
 
           <h3>Professional Experience</h3>
           <ul>
@@ -128,7 +137,6 @@
         <li>English Level B2 Certificate</li>
       </ul>
     </section>
-
 
     <!-- Skills -->
     <section class="card glass" id="skills">
@@ -167,7 +175,7 @@
 
         <article class="project">
           <h3>Python Games (Pygame)</h3>
-          <p>Snake, Pac‑Man and other small games with scoring and level systems.</p>
+          <p>Snake, Pac-Man and other small games with scoring and level systems.</p>
           <p class="muted">Repo: <a href="https://github.com/ItsFGD" target="_blank">ItsFGD</a></p>
         </article>
 
@@ -201,20 +209,19 @@
     </section>
 
     <footer class="card footer glass">
-      <div>© 2025 Khellaf Fadi Aniis — Built with care</div>
+      <div>© 2025 Khellaf Fadi Anis — Built with care</div>
       <div class="footer-links"><a href="#home">Top</a> • <a href="#contact">Contact</a></div>
     </footer>
   </main>
 
   <!-- Libraries: GSAP + particles.js -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
 
 <script>
   window.__CONTACT_API_URL__ = "https://khellaffadianis-back.onrender.com";
 </script>
 
-<script src="script.js"></script>
-
+  <script src="script.js"></script>
 </body>
 </html>
